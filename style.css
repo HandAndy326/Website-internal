@@ -1,3 +1,43 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+section {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+    background-image: url('img/pexels-chuanyu2015-209658-2231469.jpg');
+}
+
+.parallax2 {
+    background-image: url('img/pexels-pixabay-248413.jpg');
+}
+
+.parallax3 {
+    background-image: url('img/jez-timms-HC9opzxKUgg-unsplash.jpg');
+}
+
+.parallax4 {
+    background-image: url('img/624111.jpg');
+}
+
 h1 {
-    
+    font-size: 3rem;
 }
