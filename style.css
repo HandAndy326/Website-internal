@@ -35,9 +35,11 @@ section {
 }
 
 .parallax4 {
-    background-image: url('img/624111.jpg');
+    background-image: url('img/istockphoto-526273601-612x612_Nero\ AI_Business.jpeg');
 }
 
 h1 {
     font-size: 3rem;
+    position: center
+;
 }
