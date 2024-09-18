@@ -18,35 +18,11 @@ body, html {
     text-align: center;
 }
 
-.parallax1 {
-    background-image: url('img/pexels-chuanyu2015-209658-2231469.jpg');
-}
-
-.parallax2 {
-    background-image: url('img/jez-timms-HC9opzxKUgg-unsplash.jpg');
-}
-
-.parallax3 {
-    background-image: url('img/pexels-pixabay-53444.jpg');
-}
-
-.parallax4 {
-    background-image: url('img/istockphoto-526273601-612x612_Nero\ AI_Business.jpeg');
-}
-
-
-.text-section {
-    padding: 50px;
-    background-color: #f4f4f4;
-    text-align: center;
-    font-size: 1.2em;
-    line-height: 1.6;
-}
-
 h1 {
+    background-size: cover;
     text-align: center;
     font-size: 50px;
-    font-family: Brush-script;
+    font-family: 'Brush Script MT', cursive;
 }
 
 .info-section {
@@ -75,6 +51,20 @@ h1 {
     font-size: 1.1em;
     margin-bottom: 10px;
 }
+
+.info-image {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
 .navbar {
     position: fixed;
     top: 0;
